@@ -4,22 +4,28 @@
 font-family: 'Monoton', cursive; */
 
 
+body,
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 .navigation-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     border-bottom: .75px solid grey; 
     align-items: center;
 }
 .navigation-menu h3 {
     margin-left: 15px;
+    margin-bottom: 20px;
     font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
 }
 /*explore only is in skyblue*/
+/*doesnt work right now*/
 .navigation-menu h3:first-child {
     color: #299bd1;
 }
@@ -32,11 +38,15 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+    display: flex;
 }
 .jumbotron-bike {
+    margin: 0 auto;
+    text-align: center;
+    width: 51.3rem;
     padding-top: 11.85rem;
     padding-bottom: 11.85rem;
-    color: white;
 }
 .jumbotron-bike h1 {
     font-family: "Monoton", cursive;
@@ -46,13 +56,36 @@ html {
 
 .btn {
     margin-top: 2.8rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
     width: 11.4rem;
     background-color: #299bd1;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 
+/*featured product */
+.row {
+    width: 100%;
+    clear: both;
+}
+.col-half {
+    width: 45%;
+    float: left;
+}
+.col-fourth{
+    width: 20%;
+    float: left;
+}
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.barn-image img {
+    width: 100%;
+}
 
 
 
@@ -80,9 +113,10 @@ html {
 
     .navigation-menu {
         display: flex;
-        flex-direction: row;
     }    
 
-
+    .jumbotron-bike h1 {
+        font-size: 7.1rem;
+    }
 
 }
