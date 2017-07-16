@@ -40,6 +40,8 @@ html {
     background-size: cover;
     color: white;
     display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .jumbotron-bike {
     margin: 0 auto;
@@ -63,17 +65,15 @@ html {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-
-/*featured product */
-
-.feature-project-title h4{
+/*PRODUCTS TITLE  */
+.feature-project-title h4, .project-title h4 {
     font-size: 1.7rem;
     font-weight: bold;
-    padding-left: 25px;
+    padding-left: 10px;
     padding-bottom: 20px;
     color: #299bd1;
-    
 }
+/*featured product */
 
 .feature-project-container {
     display: flex;
@@ -109,20 +109,24 @@ html {
     color: #299bd1;
 }
 
-/*products section  */
+/*PRODUCTS TITLE  */
+.project-title h4{
+    padding-top: 20px;
+}
 
+/*products section  */
 .project-container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 5.85rem;
+    /* padding-bottom: 5.85rem; */
 }
 
 .project {
     width: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 5.85rem;
 }
 .project img {
     width: 100%;
@@ -133,32 +137,61 @@ html {
     font-weight: bold;
 }
 
+/*footer  */
+
+footer {
+    background-color: #f3f3f3;
+    padding-top: 5.2rem;
+    padding-bottom: 5.2rem;
+    text-align: center;
+}
+
+.footer-title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 1.4rem;
+}
 
 
 
 
+
+
+
+
+/****************************************  */
+/****************************************  */
+/****************************************  */
+/****************************************  */
 @media only screen and (min-width: 700px) {
-
+    /*navigation  */
     .navigation-menu a {
         margin-left: 2rem;
     }
-
     .navigation-logo {
         display: unset;
         margin-right: 2rem;
     }
-
     .navigation-menu {
         display: flex;
     }    
 
+    /*jumbotron  */
     .jumbotron-bike h1 {
         font-size: 7.1rem;
     }
+
+    /*main container  */
     .main-container {
         max-width: 1200px;
         margin: 0 auto;
     }
+    
+    .feature-project-title h4 {
+        padding-left: 25px;
+        padding-bottom: 20px;
+    }
+    /*feature story container  */
     .feature-project-container {
         flex-direction: row;
         justify-content: space-around;
@@ -171,11 +204,11 @@ html {
         width: 47%;
         float: left;
     }
-    /* .col-fourth{
-        width: 22%;
-        float: left;
-    } */
-    
+
+    /*project stories container  */
+    .project-title {
+        padding-left: 15px;
+    }
     .project-container {
         flex-direction: row;
         margin-right: 25px;
@@ -184,4 +217,14 @@ html {
     .project {
         width: 31.5%;
     }
+
+    /*footer  */
+    .footer-tagline {
+        width: 42rem;
+    }
+
+
+
+
+
 }
