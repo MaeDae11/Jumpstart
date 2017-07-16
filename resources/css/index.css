@@ -71,7 +71,6 @@ html {
     font-weight: bold;
     padding-left: 25px;
     padding-bottom: 20px;
-
     color: #299bd1;
     
 }
@@ -80,7 +79,6 @@ html {
     display: flex;
     flex-direction: column;
     margin: 10px;
-
 }
 
 .barn-image img {
@@ -91,30 +89,49 @@ html {
 .information {
     display: flex;
 }
-.prouducts, .documentary {
+.product-list, .documentary {
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.7);
     width: 50%;
     margin-right: 20px;
 }
-
-.products h2, .documentary h2{
+.product-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.product-list h2, .documentary h2{
     margin-top: 0;
     font-size: 1.3rem;
     font-weight: bold;
 }
-
-.products h2 {
+.product-list h2 {
     color: #299bd1;
 }
 
+/*products section  */
 
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 5.85rem;
+}
 
+.project {
+    width: 100%;
+    padding-bottom: 70px;
+}
+.project img {
+    width: 100%;
+}
 
-
-
-
-
+.project h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 
 
 
@@ -139,7 +156,7 @@ html {
         font-size: 7.1rem;
     }
     .main-container {
-        max-width: 1024px;
+        max-width: 1200px;
         margin: 0 auto;
     }
     .feature-project-container {
@@ -159,5 +176,12 @@ html {
         float: left;
     } */
     
-
+    .project-container {
+        flex-direction: row;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .project {
+        width: 31.5%;
+    }
 }
