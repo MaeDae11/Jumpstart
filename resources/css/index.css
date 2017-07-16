@@ -65,14 +65,22 @@ html {
 
 
 /*featured product */
-.main-container {
-    width: 100%;
+
+.feature-project-title h4{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-bottom: 20px;
+
+    color: #299bd1;
+    
 }
 
 .feature-project-container {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
+
 }
 
 .barn-image img {
@@ -130,7 +138,10 @@ html {
     .jumbotron-bike h1 {
         font-size: 7.1rem;
     }
-
+    .main-container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
     .feature-project-container {
         flex-direction: row;
         justify-content: space-around;
@@ -140,7 +151,7 @@ html {
         clear: both;
     }
     .col-half {
-        width: 45%;
+        width: 47%;
         float: left;
     }
     /* .col-fourth{
