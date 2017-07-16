@@ -2,3 +2,60 @@
 /*font familys imported from google fonts*/
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Monoton', cursive; */
+
+.navigation-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: .75px solid grey;
+    align-items: center;
+}
+.navigation-menu h3 {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.navigation-logo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .navigation-menu a {
+        margin-left: 2rem;
+    }
+
+    .navigation-logo {
+        display: unset;
+        margin-right: 2rem;
+    }
+
+    .navigation-menu {
+        display: flex;
+        flex-direction: row;
+    }    
+
+
+
+}
