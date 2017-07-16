@@ -233,6 +233,7 @@ footer {
     }
     
     .feature-project-title h4 {
+        margin-left: 20px;
         font-size: 1.7rem;
     }
 
@@ -241,7 +242,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
     }
-    
+
     .row {
         width: 100%;
         clear: both;
@@ -249,6 +250,9 @@ footer {
     .col-half {
         width: 47%;
         float: left;
+    }
+    .barn-image img{
+        transition: all .75s ease-in-out;
     }
     .barn-image img:hover {
         opacity: 1;
@@ -268,7 +272,9 @@ footer {
     .project {
         width: 31.5%;
     }
-    
+    .project-image img {
+        transition: all .75s ease-in-out;
+    }
     .project-image img:hover {
         opacity: 1;
         transform: scale(1.3);
