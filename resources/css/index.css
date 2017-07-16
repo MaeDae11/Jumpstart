@@ -65,26 +65,39 @@ html {
 
 
 /*featured product */
-.row {
-    width: 100%;
-    clear: both;
-}
-.col-half {
-    width: 45%;
-    float: left;
-}
-.col-fourth{
-    width: 20%;
-    float: left;
-}
 .main-container {
     width: 100%;
+}
+
+.feature-project-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px;
 }
 
 .barn-image img {
     width: 100%;
+    margin-bottom: 20px;
+}
+
+.information {
+    display: flex;
+}
+.prouducts, .documentary {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    margin-right: 20px;
+}
+
+.products h2, .documentary h2{
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.products h2 {
+    color: #299bd1;
 }
 
 
@@ -99,8 +112,7 @@ html {
 
 
 
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 
     .navigation-menu a {
         margin-left: 2rem;
@@ -118,5 +130,23 @@ html {
     .jumbotron-bike h1 {
         font-size: 7.1rem;
     }
+
+    .feature-project-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .row {
+        width: 100%;
+        clear: both;
+    }
+    .col-half {
+        width: 45%;
+        float: left;
+    }
+    /* .col-fourth{
+        width: 22%;
+        float: left;
+    } */
+    
 
 }
