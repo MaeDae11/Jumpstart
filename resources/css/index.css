@@ -42,28 +42,23 @@ html {
 }
 
 .jumbotron {
-    background-image: url("../images/jumbotron-bike.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     color: white;
     display: flex;
     padding-top: 0;
     padding-bottom: 0;
 }
-.jumbotron-bike {
-    margin: 0 auto;
-    text-align: center;
-    width: 51.3rem;
+.jumbotron-center-text {
+    width: 100%;
     padding-top: 11.85rem;
     padding-bottom: 11.85rem;
+    margin: 0 auto;
+    text-align: center;
 }
-.jumbotron-bike h1 {
+.jumbotron-center-text h1 {
     font-family: "Monoton", cursive;
     font-size: 5.7rem;
     text-shadow: -1px -1px 0 #000;
 }
-
 .btn {
     margin-top: 2.8rem;
     padding-top: 1.3rem;
@@ -72,6 +67,39 @@ html {
     background-color: #299bd1;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
+
+/*different images for jumbotron  */
+.jumbotron-bike {
+    width: 100%;
+    background-image: url("../images/jumbotron-bike.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron-beer {
+    width: 100%;
+    background-image: url("../images/jumbotron-beer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron-flowers {
+    width: 100%;
+    background-image: url("../images/jumbotron-flowers.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron-duffel {
+    width: 100%;
+    background-image: url("../images/jumbotron-duffel.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
 
 /*PRODUCTS TITLE  */
 .feature-project-title h4, .project-title h4 {
@@ -191,7 +219,10 @@ footer {
     }    
 
     /*jumbotron  */
-    .jumbotron-bike h1 {
+    .jumbotron-center-text {
+        width: 51.3rem;
+    }
+    .jumbotron-center-text h1 {
         font-size: 7.1rem;
     }
 
@@ -202,14 +233,15 @@ footer {
     }
     
     .feature-project-title h4 {
-        padding-left: 25px;
-        padding-bottom: 20px;
+        font-size: 1.7rem;
     }
+
     /*feature story container  */
     .feature-project-container {
         flex-direction: row;
         justify-content: space-around;
     }
+    
     .row {
         width: 100%;
         clear: both;
@@ -240,11 +272,9 @@ footer {
     .project-image img:hover {
         opacity: 1;
         transform: scale(1.3);
-        transition: all .75s ease-in-out;
+        transition: all 1s ease-in-out;
     }
-    /* .product-image img {
-        overflow: hidden;
-    } */
+    
 
 
     /*footer  */
