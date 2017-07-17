@@ -46,6 +46,7 @@ html {
     display: flex;
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 .jumbotron-center-text {
     width: 100%;
@@ -96,7 +97,6 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 
@@ -219,9 +219,9 @@ footer {
     }    
 
     /*jumbotron  */
-    .jumbotron-center-text {
-        width: 51.3rem;
-    }
+    /* .jumbotron-center-text {
+        width: 80rem;
+    } */
     .jumbotron-center-text h1 {
         font-size: 7.1rem;
     }
