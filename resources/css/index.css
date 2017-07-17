@@ -44,20 +44,23 @@ html {
 .jumbotron {
     color: white;
     display: flex;
+    /* justify-content: space-around; */
     padding-top: 0;
     padding-bottom: 0;
-}
-.jumbotron-center-text {
-    width: 100%;
-    padding-top: 11.85rem;
-    padding-bottom: 11.85rem;
-    margin: 0 auto;
     text-align: center;
 }
-.jumbotron-center-text h1 {
+.jumbotron-title-text {
     font-family: "Monoton", cursive;
     font-size: 5.7rem;
     text-shadow: -1px -1px 0 #000;
+    padding-top: 11.85rem;
+}
+.jumbotron-center-text {
+    width: 100%;
+    /* padding-top: 11.85rem;
+    padding-bottom: 11.85rem; */
+    margin: 0 auto;
+    text-align: center;
 }
 .btn {
     margin-top: 2.8rem;
@@ -66,6 +69,7 @@ html {
     width: 11.4rem;
     background-color: #299bd1;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 11.85rem;
 }
 
 /*different images for jumbotron  */
@@ -220,9 +224,9 @@ footer {
 
     /*jumbotron  */
     .jumbotron-center-text {
-        width: 51.3rem;
+        width: 60rem;
     }
-    .jumbotron-center-text h1 {
+    .jumbotron-title-text h1{
         font-size: 7.1rem;
     }
 
