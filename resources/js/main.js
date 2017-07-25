@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  $('.carousel').slick({
+    $('.carousel').slick({
       autoplay: true,
       mobileFirst: true,
       autoplaySpeed: 4000,
