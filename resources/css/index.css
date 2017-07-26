@@ -47,14 +47,9 @@ html {
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-}
-.jumbotron-center-text {
-    width: 100%;
-    padding-top: 11.85rem;
-    padding-bottom: 11.85rem;
-    margin: 0 auto;
     text-align: center;
 }
+
 .jumbotron-title-text {
     font-family: "Monoton", cursive;
     font-size: 5.7rem;
@@ -63,8 +58,6 @@ html {
 }
 .jumbotron-center-text {
     width: 100%;
-    /* padding-top: 11.85rem;
-    padding-bottom: 11.85rem; */
     margin: 0 auto;
     text-align: center;
 }
