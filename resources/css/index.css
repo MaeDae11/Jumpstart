@@ -34,9 +34,9 @@ html {
 }
 /*explore only is in skyblue*/
 /*doesnt work right now*/
-.menu:first-child {
+/* .menu:first-child {
     color: #299bd1;
-}
+} */
 .navigation-logo {
     display: none;
 }
@@ -44,7 +44,6 @@ html {
 .jumbotron {
     color: white;
     display: flex;
-    /* justify-content: space-around; */
     padding-top: 0;
     padding-bottom: 0;
     text-align: center;
