@@ -46,6 +46,13 @@ html {
     display: flex;
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 0;
+}
+.jumbotron-center-text {
+    width: 100%;
+    padding-top: 11.85rem;
+    padding-bottom: 11.85rem;
+    margin: 0 auto;
     text-align: center;
 }
 .jumbotron-title-text {
@@ -99,7 +106,6 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 
@@ -225,7 +231,6 @@ footer {
         display: flex;
     }    
 
-    /*jumbotron  */
     .jumbotron-center-text {
         width: 60rem;
     }
