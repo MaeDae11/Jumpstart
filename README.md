@@ -23,11 +23,11 @@ Codecademy Final Project: Webpage focusing on jQuery, JavaScript and CSS
 
 
 
-  <img src="resources/images/jumpstartmainphoto.png" src="photo of flowers">
+  <img src="resources/images/jumpstartmainphoto.png" src="photo of flowers"/>
   <h4>This is one of four images that are looped through using Slick.js carousel. The photos are a large focus of the website, located within the Jumbotron</h4>
   <br />
-  <img src="resources/images/projectsdesktop.png" src="three projects with photos aand descriptions">
+  <img src="resources/images/projectsdesktop.png" src="three projects with photos aand descriptions"/>
   <h4>All photos have a hover effect. When the user hovers, the image is zoomed in slightly and is changed from .8 opacity to 1. With the overflow set to none, the zoom effect does not the position of the photo. Possibly one of my favorite effects that is simple, yet, looks nice.</h4>
   <br />
-  <img src="resources/images/projectsmobile.png" src="one project on mobile version">
+  <img width="300" src="resources/images/projectsmobile.png" src="one project on mobile version" />
   <h4>Showing the responsive website design from desktop to mobile</h4>
