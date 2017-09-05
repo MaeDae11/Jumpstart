@@ -1,7 +1,7 @@
 # Jumpstart
 Codecademy Final Project: Webpage focusing on jQuery, JavaScript and CSS
 
-<a href="https://d3izyhvt2yix49.cloudfront.net/">Website</a> hosted on AWS
+<a target="_blank" rel="noopener noreferrer"  href="https://d3izyhvt2yix49.cloudfront.net/">Website</a> hosted on AWS
 
 <b>Overall:</b>
   <li>Specifications: layout was provided, as well as, photos. However, I did not complete the project using primarily Bootstrap as I preferred additional practice in Flexbox and have completed many projects with Bootstrap.</li>
