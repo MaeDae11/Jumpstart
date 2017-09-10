@@ -1,10 +1,10 @@
 # Jumpstart
-Codecademy Final Project: Webpage focusing on jQuery, JavaScript and CSS
+Webpage focusing on jQuery, JavaScript and CSS
 
-<a target="_blank" rel="noopener noreferrer"  href="https://d3izyhvt2yix49.cloudfront.net/">Website</a> hosted on AWS
+<a target="_blank" rel="noopener noreferrer"  href="https://d3izyhvt2yix49.cloudfront.net/">AWS Website</a>
 
 <b>Overall:</b>
-  <li>Specifications: layout was provided, as well as, photos. However, I did not complete the project using primarily Bootstrap as I preferred additional practice in Flexbox and have completed many projects with Bootstrap.</li>
+  <li>Specifications: Wireframe was provided. However, I did not complete the project using primarily Bootstrap as I preferred additional practice in Flexbox and have completed many projects with Bootstrap.</li>
   <li>Concept: the webpage focused on completing projects and needing ideas to get started. It incorporates art, photography and more.</li>
 
 <br/>
