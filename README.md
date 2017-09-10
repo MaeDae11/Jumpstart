@@ -1,5 +1,5 @@
 # Jumpstart
-Webpage focusing on jQuery, JavaScript and CSS
+Webpage focusing on jQuery for jumbotron carousel with CSS and Bootstrap to display gridded content
 
 <a target="_blank" rel="noopener noreferrer"  href="https://d3izyhvt2yix49.cloudfront.net/">AWS Website</a>
 
